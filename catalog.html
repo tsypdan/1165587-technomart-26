@@ -169,6 +169,52 @@
         <button type="button" class="in-bookmark">В закладки</button>
       </div>
     </section>
+
+    <section class="filters">
+      <h2 class="form-title">Фильтр</h2>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <section class="price">
+          <h3 class="filter-title">Цена:</h3>
+          <!-- filter -->
+        </section>
+        <section class="manufactures">
+          <h3 class="filter-title">Производители:</h3>
+          <label>
+            <input type="checkbox" name="Bosh" checked>
+            <span class="manufacturer">Bosh</span>
+          </label>
+          <label>
+            <input type="checkbox" name="Интерскол">
+            <span class="manufacturer">Интерскол</span>
+          </label>
+          <label>
+            <input type="checkbox" name="Makitar" checked>
+            <span class="manufacturer">Makita</span>
+          </label>
+          <label>
+            <input type="checkbox" name="Dewaltr">
+            <span class="manufacturer">Dewalt</span>
+          </label>
+          <label>
+            <input type="checkbox" name="Hitachi">
+            <span class="manufacturer">Hitachi</span>
+          </label>
+        </section>
+        <section class="item-power">
+          <h3 class="filter-title">Питание:</h3>
+          <label>
+            <input type="radio" name="power-type" value="rechargeable" checked>
+            <span class="power-type">Аккумуляторные</span>
+          </label>
+          <label>
+            <input type="radio" name="power-type" value="mains">
+            <span class="power-type">Сетевые</span>
+          </label>
+        </section>
+        <input type="submit" value="Показать" class="filter-show">
+      </form>
+    </section>
+    </section>
   </main>
 
   <footer class="main-footer">
@@ -215,6 +261,14 @@
       <p>Разработано—<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
     </section>
   </footer>
+
+  <section class="buy-successfully visually-hidden">
+    <h2 class="popup-title">Товар добавлен в корзину!</h2>
+    <img src="img/catalog/form-1.svg" alt="Декоративный элемент" width="66" height="66">
+    <a href="" class="buy">Оформить заказ</a>
+    <button type="button" class="buy-close">Продолжить покупки</button>
+    <button type="button" class="popup-close">Закрыть</button>
+  </section>
 </body>
 
 </html>

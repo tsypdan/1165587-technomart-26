@@ -34,6 +34,10 @@ body {
   background-color: #fff;
 }
 
+textarea {
+  resize: none;
+}
+
 /* header */
 .header-top {
   /* Позиционирование */
